@@ -64,3 +64,24 @@ button {
   background-color: aqua;
   size: 20px;
 }
+.modal-title {
+  font-size: 40px;
+}
+.modal-body {
+  font-size: 30px;
+}
+.btn {
+  border: none;
+  padding: 15px;
+  color: rgb(50, 0, 54);
+  background-color: rgb(177, 110, 149);
+}
+.modal-body {
+  font-size: 50px;
+  background-color: rgb(177, 110, 149);
+}
+.image {
+  width: 700px;
+  height: 500px;
+  margin: 10px;
+}
