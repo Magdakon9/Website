@@ -12,7 +12,8 @@ h2 {
   font-size: 55px;
   color: rgb(80, 11, 11);
 }
-p {
+p,
+ul {
   font-size: 30px;
 }
 img {
