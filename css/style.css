@@ -6,7 +6,7 @@ body {
   font-family: "Times New Roman", Times, serif;
   text-align: center;
   color: black;
-  background-color: rgb(241, 190, 198);
+  background-color: rgb(222, 147, 160);
 }
 h1 {
   font-size: 80px;
@@ -25,7 +25,7 @@ ul {
 img {
   height: 500px;
   width: 500px;
-  box-shadow: -10px 10px 30px white, 10px -10px 30 px black;
+  box-shadow: -10px 10px 30px rgb(196, 123, 123), 10px -10px 30 px black;
   border-color: black;
   border-width: 10%;
 }
@@ -46,11 +46,21 @@ ul {
   flex-direction: column;
 }
 .bg-white {
-  background-color: white;
+  background-color: rgb(222, 147, 160);
 }
 .bg-pink {
   background-color: rgb(222, 147, 160);
 }
 .bg-creme {
-  background-color: rgb(255, 252, 252);
+  background-color: rgb(222, 147, 160);
+}
+
+ol {
+  font-size: 20px;
+}
+
+#title-success {
+  font-size: 30px;
+  color: black;
+  background-color: rgb(222, 147, 160);
 }
