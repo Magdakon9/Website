@@ -13,6 +13,15 @@ h1 {
   margin-bottom: 30px;
 }
 
+<<<<<<< HEAD
+.carousel-item img {
+  height: 600px;
+  margin: auto;
+}
+
+.carousel-item {
+  width: 100%;
+=======
 ul {
   list-style: none;
   display: flex;
@@ -20,6 +29,7 @@ ul {
   width: 60%;
   text-align: center;
   font-size: 30px;
+>>>>>>> 8e81d80775b947decce19eacf8c0e6a6f4dec7d2
 }
 .title {
   border-style: dashed;
