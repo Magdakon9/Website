@@ -37,3 +37,20 @@ ul {
   width: 60%;
   text-align: center;
 }
+#header,
+#main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.bg-white {
+  background-color: white;
+}
+.bg-pink {
+  background-color: rgb(222, 147, 160);
+}
+.bg-creme {
+  background-color: rgb(255, 252, 252);
+}

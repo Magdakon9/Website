@@ -29,15 +29,28 @@
 
 
     
-    <h1>Our Experience</h1>
-    <p>This is a paragraph.</p>
+    <div class="container mt-5">
+      <h3>Popover Positioning</h3>
+      <p>Click on the links to see the popover in action:</p>
+      <a href="#" title="html" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Content">Μέρα 1</a>
+      <a href="#" title="javscript" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="Content">Μέρα 2</a>
+      <a href="#" title="css" data-bs-toggle="popover" data-bs-placement="left" data-bs-content="Content">Μέρα 3</a>
+      <a href="#" title="bootstrap" data-bs-toggle="popover" data-bs-placement="right" data-bs-content="Content">Μέρα 4</a>
+    </div>
+    
+    <script>
+    var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+    var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+      return new bootstrap.Popover(popoverTriggerEl)
+    })
+    </script>
+    
+    
 
-
+<br>
 
     
-   
-  </body>
-</html>
+  
 
 <!-- Carousel -->
 <div class="container">
@@ -83,7 +96,8 @@
     <span class="carousel-control-next-icon"></span>
   </button>
 
-</div>
-</div>
 
+  
+
+  </body>
 </html>
