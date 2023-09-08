@@ -16,6 +16,8 @@ h1 {
 .carousel-item img {
   height: 600px;
   margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .carousel-item {
@@ -60,6 +62,16 @@ p {
 ol {
   font-size: 20px;
 }
+
+li {
+  padding: 50px;
+  font-size: 25px;
+}
+
+li:hover {
+  box-shadow: 0px 30px 60px rgba(0, 0, 0, 0.3);
+}
+
 button {
   background-color: aqua;
   size: 20px;
@@ -93,4 +105,10 @@ button {
 
 .modal-list li {
   font-size: 30px;
+}
+
+.imge {
+  width: 500px;
+  height: 200px;
+  margin-bottom: 20px;
 }
