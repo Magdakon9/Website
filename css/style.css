@@ -28,7 +28,7 @@ img {
   box-shadow: -10px 10px 30px rgb(196, 123, 123), 10px -10px 30 px black;
   border-color: black;
   border-width: 10%;
-  margin: 50px;
+  /* margin: 50px; */
 }
 
 ol {
