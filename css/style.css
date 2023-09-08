@@ -39,7 +39,6 @@ ol {
 }
 #header,
 #main {
-  height: 50vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -90,4 +89,7 @@ li:hover {
   width: 400px;
   height: 100px;
   margin-bottom: 20px;
+}
+.max-width-img {
+  max-width: calc(100% - 100px);
 }
