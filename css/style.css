@@ -6,7 +6,7 @@ body {
   font-family: "Times New Roman", Times, serif;
   text-align: center;
   color: black;
-  background-color: rgb(241, 190, 198);
+  background-color: rgb(222, 147, 160);
 }
 h1 {
   font-size: 80px;
@@ -16,26 +16,26 @@ h1 {
 h2 {
   font-size: 55px;
   color: rgb(80, 11, 11);
-  margin-bottom: 60px;
+  margin-bottom: 10px;
 }
 p,
 ul {
   font-size: 30px;
 }
 img {
-  height: 500px;
-  width: 500px;
-  box-shadow: -10px 10px 30px white, 10px -10px 30 px black;
+  height: 400px;
+  width: 600px;
+  box-shadow: -10px 10px 30px rgb(196, 123, 123), 10px -10px 30 px black;
   border-color: black;
   border-width: 10%;
+  margin: 50px;
 }
 
-ul {
-  list-style: none;
+ol {
   display: flex;
   justify-content: space-between;
-  width: 60%;
-  text-align: center;
+  width: 70%;
+  list-style: none;
 }
 #header,
 #main {
@@ -46,11 +46,43 @@ ul {
   flex-direction: column;
 }
 .bg-white {
-  background-color: white;
+  background-color: rgb(222, 147, 160);
 }
 .bg-pink {
   background-color: rgb(222, 147, 160);
 }
-.bg-creme {
-  background-color: rgb(255, 252, 252);
+.bg-purple {
+  background-color: rgb(97, 15, 97);
+}
+.bg-red {
+  background-color: rgb(158, 58, 58);
+}
+#title-success {
+  font-size: 60px;
+  margin-bottom: 30px;
+  border-style: dashed;
+  color: black;
+}
+.shadow {
+  box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.3);
+}
+.text {
+  border-style: dotted;
+  width: 60%;
+  margin-bottom: 30px;
+  padding: 30px;
+  line-height: 40px;
+}
+li {
+  padding: 50px;
+  font-size: 25px;
+}
+li:hover {
+  box-shadow: 0px 30px 60px rgba(0, 0, 0, 0.3);
+}
+.link {
+  color: rgb(156, 66, 81);
+}
+.link:hover {
+  text-decoration: none;
 }
