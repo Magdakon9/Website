@@ -86,3 +86,8 @@ li:hover {
 .link:hover {
   text-decoration: none;
 }
+.imge {
+  width: 400px;
+  height: 100px;
+  margin-bottom: 20px;
+}
