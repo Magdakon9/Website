@@ -85,3 +85,7 @@ button {
   height: 500px;
   margin: 10px;
 }
+
+.modal-list li {
+  font-size: 30px;
+}
